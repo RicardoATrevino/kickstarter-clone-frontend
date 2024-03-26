@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer>
+    <footer className="font-family:Papyrus  ">
       <p>Copyright 2022</p>
     </footer>
   );

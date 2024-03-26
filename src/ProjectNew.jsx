@@ -11,7 +11,7 @@ export function ProjectsNew(props) {
       <h1>New Project</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          Title: <input name="Title" type="text" />
+          Title: <input className="text-3xl font-bold underline" name="Title" type="text" />
         </div>
         <div>
           Description: <input name="Description" type="text" />
