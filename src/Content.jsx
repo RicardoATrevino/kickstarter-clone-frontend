@@ -26,12 +26,12 @@ export function Content() {
 
   return (
     <main>
-      <h1>Welcome to React!</h1>
+      <h1 className="text-3xl font-bold underline">Welcome to React!</h1>
       <ProjectsNew onCreateProject={handleCreateProject} />
       <ProjectIndex projects={projects} />
-      <Modal show={true}>
+      {/* <Modal show={true}>
         <h1>WOW</h1>
-      </Modal>
+      </Modal> */}
     </main>
   );
 }
