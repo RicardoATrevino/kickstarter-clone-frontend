@@ -5,9 +5,9 @@ export function ProjectIndex(props) {
       <h1>All Projects</h1>
       {props.projects.map((project) => (
         <div key={project.id}>
-          <img src={project.url} />
-          <p>Width: {project.width}</p>
-          <p>Height: {project.height}</p>
+          <h1>{project.title}</h1>
+          <p>{project.description}</p>
+          <p>{project.goal_amount}</p>
         </div>
       ))}
     </div>
